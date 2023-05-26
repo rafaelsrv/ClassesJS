@@ -19,7 +19,8 @@ function showMenu() {
                                 "2- Imprimir naves\n" +
                                 "3- Sair do programa")
     }
-    return chosenOption
+    return chosenOption //Retorna o valor recebido.
+
 }
 
 function createSpaceship() {
