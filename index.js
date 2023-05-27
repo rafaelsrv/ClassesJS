@@ -44,7 +44,7 @@ let chosenOption
 
 while(chosenOption != "3") {
     chosenOption = showMenu()
-    switch(chosenOption) {
+    switch(chosenOption) {  // seleção de números
         case "1":
             let spaceshipToAdd = createSpaceship()
             spaceshipToAdd.hitch()
