@@ -26,7 +26,7 @@ function showMenu() {
 function createSpaceship() {
     let spaceshipName = prompt("Informe o nome da nave")
     let crewQuantity = prompt("Informe a quantidade de tripulantes")
-    let spaceship = new Spaceship(spaceshipName, crewQuantity)
+    let spaceship = new Spaceship(spaceshipName, crewQuantity) //Nova nave recebendo dados.
     return spaceship
 }
 
