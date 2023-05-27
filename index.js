@@ -36,7 +36,7 @@ function printSpaceshipList(spaceships) {
         spaceshipList +=    (index + 1) + "- " + spaceship.name + 
                             " (" + spaceship.crewQuantity + " tripulantes)\n"
     })
-    alert(spaceshipList)
+    alert(spaceshipList) //Mostrando naves pelo alerta
 }
 
 let hitchedSpaceships = []
