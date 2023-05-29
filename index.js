@@ -51,7 +51,7 @@ while(chosenOption != "3") {
             hitchedSpaceships.push(spaceshipToAdd)
             break
         case "2":
-            printSpaceshipList(hitchedSpaceships)
+            printSpaceshipList(hitchedSpaceships)   //Chama função de listagem
             break
     }
 }
