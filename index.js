@@ -47,7 +47,7 @@ while(chosenOption != "3") {
     switch(chosenOption) {  // seleção de números
         case "1":
             let spaceshipToAdd = createSpaceship()
-            spaceshipToAdd.hitch() //Comutar portas e engate
+            spaceshipToAdd.hitch() //Comutar portas e engate!
             hitchedSpaceships.push(spaceshipToAdd)
             break
         case "2":
